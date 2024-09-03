@@ -53,11 +53,11 @@ lista_de_nomes = nome.split()
 nome_formatado = ' - '.join(lista_de_nomes)
 tamanho_nome_formatado = len(nome_formatado)
 
-print(nomeMaiusculo)
-print(nomeMinusculo)
-print(lista_de_nomes)
-print(nome_formatado)
-print(tamanho_nome_formatado)
+# print(nomeMaiusculo)
+# print(nomeMinusculo)
+# print(lista_de_nomes)
+# print(nome_formatado)
+# print(tamanho_nome_formatado)
 
 # strip, concatenação, soma entre número e string, Fstring
 
@@ -68,7 +68,11 @@ listaA = [0,1,2]
 listaB = [0,1,2]
 listaC = listaA + listaB
 
-print(listaC)
+# print(listaC)
 
-#list compreehension
-#
+#List comprehensions
+
+impares = [item for item in range(10) if item%2 == 1]
+
+print(impares)
+
